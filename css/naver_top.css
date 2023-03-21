@@ -1,0 +1,44 @@
+body{
+    background-color: #f4f6f8;
+}
+.naver_top_line{
+    position: relative;
+}
+#naver_menu_icon{
+    padding: 8px;
+    width: 28px;
+}
+#naver_alert_icon{
+    float: right;
+    width: 28px;
+    padding-top: 8px;
+    padding-right: 22px;
+}
+#naver_pay_icon{
+    float: right;
+    width: 28px;
+    padding-top: 8px;
+    padding-right: 13px;
+}
+#naver_profile_icon{
+    float: right;
+    color: black;
+    background-color: greenyellow;
+    border: 1px solid;
+    border-radius: 100%;
+    margin-right: 6px;
+    margin-top: 6px;
+    padding: 15px;
+}
+.naver_special_img{
+    display: flex;
+}
+#naver_ani_img{
+    position: absolute;
+    z-index: -2;
+    width: 568px;
+    height: auto;
+    top: -141px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
