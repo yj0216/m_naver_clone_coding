@@ -1,33 +1,36 @@
-#naver_input{
-    background: url("../img/naver_logo_icon.png") no-repeat;
+.naver_input_line{
+    background: url(../img/naver_logo_icon.png) no-repeat;
     background-size: 56px;
-    position: absolute;
-    top: 160px;
-    z-index: -1;
-    width: 530px;
-    height: 19px;
-    left: 6%;
-    padding: 14px 0;
+    display: block;
+    width: 462px;
+    padding: 12px 20px;
     border: 1px solid rgb(81, 187, 30);
-    border-radius: 36px;
+    border-radius:30px ;
     background-color: white;
-    left: 50%;
-    transform: translate(-50%, 0%);
+    margin: auto;
+}
+#naver_input{
+    display: flex;
+    margin-left: 40px;
+    width: 350px;
+    line-height: 22px;
+    border: 0px;
 }
 #naver_input::placeholder{
-    font-size: 19px;
-    text-indent: 60px;
+    font-size: 18px; 
     color: rgb(209, 208, 208);
 }
 
 #naver_mic_icon{
-    float: right;
+    position: absolute;
+    top: 168px;
+    margin-left: 429px;
     background-color: rgb(81, 187, 30);
-    border-top: 2px solid  rgb(81, 187, 30);
-    border-bottom: 2px solid  rgb(81, 187, 30);
-    border-right: 2px solid  rgb(81, 187, 30);
-    top: 169px;
-    right: 18%;
     width: 36px;
-    height: 30px;
+   
+}
+
+span {
+    display: inline-block;
+    font-size: 2px;
 }

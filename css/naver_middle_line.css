@@ -1,0 +1,41 @@
+.naver_middle_line{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#naver_adver_img{    
+    width: auto;
+    height: 115px;
+    box-shadow: 10px 0px 10px gray;
+}
+
+.naver_middle_line2{
+    display: block;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: white;
+    border-radius: 8px;
+    width: 380px;
+    padding:20px 50px;
+    margin: auto;
+}
+#naver_weather_icon{
+    position: absolute;
+    left: 60px;
+    display: block;
+    width: 50px;
+}
+.naver_weather_text{
+    margin-left: 20px;
+}
+.naver_weather_text div{
+   font-size: 13px;
+}
+.ass{
+    color: rgb(124, 192, 231);
+}
+.naver_search_text{
+    padding-top: 20px;
+    width: 370px;
+    text-align: center;
+    color: rgb(131, 131, 131);
+}

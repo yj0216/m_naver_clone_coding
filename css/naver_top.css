@@ -3,6 +3,7 @@ body{
 }
 .naver_top_line{
     position: relative;
+    height: 153px;
 }
 #naver_menu_icon{
     padding: 8px;

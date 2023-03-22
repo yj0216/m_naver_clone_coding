@@ -1,0 +1,38 @@
+.naver_selector{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 360px;
+    margin: auto;
+    
+}
+.naver_select_icon{
+    width: 44px;
+    height: auto;
+    padding: 16PX;
+}
+
+.ns_t{
+    position: absolute;
+    top: 262px;
+    font-size: 11px;
+    margin-left: 21px;
+}
+.ns_t2{
+    position: absolute;
+    top: 262px;
+    font-size: 11px;
+    margin-left: 17px;
+}
+.ns_t3{
+    position: absolute;
+    top: 343px;
+    font-size: 11px;
+    margin-left: 23px;
+}
+.ns_t4{
+    position: absolute;
+    top: 343px;
+    font-size: 11px;
+    margin-left: 21px;
+}
