@@ -1,0 +1,64 @@
+.naver_bottom_line{
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 8px;
+    background-color: white;
+    width: 480px;
+    height: 220px;
+    padding:20px 0px;
+    margin: 10px auto;
+}
+#naver_now_icon{
+    position: absolute;
+    margin-left: 20px;
+    width: 55px;
+}
+#naver_plan_icon{
+    position: absolute;
+    margin-left: 388px;
+    width: 20px;
+}
+#naver_plan_text{
+   position: absolute;
+   margin-left: 410px;
+    padding-top: 1px;
+   font-size: 14px;
+    color: rgb(131, 131, 131);
+}
+
+.naver_movie_line{
+    display: flex;
+}
+.naver_movie_line ul{
+    list-style-type: none;
+    padding: 18px 18px 18px 22px;
+}
+.naver_movie_line li{
+    float: left;
+}
+.naver_movie_img{
+    display: block;
+    border-radius: 7px;
+    width: 100px;
+    height: auto;
+}
+.naver_movie_line p{
+    display: block;
+    margin-top:8px;
+    font-size: 15px;
+    width: 110px;
+}
+#naver_movie_text1{
+    position: absolute;
+    margin:110px 5px;
+    width: 90px;
+}
+#naver_movie_text2{
+    position: absolute;
+    margin:100px 7px;
+    width: 90px;
+}
+#naver_movie_text3{
+    position: absolute;
+    margin:100px 25px;
+    width: 50px;
+}

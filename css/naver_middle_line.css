@@ -18,17 +18,20 @@
     padding:20px 50px;
     margin: auto;
 }
+.naver_middle_line2 b{
+    font-size: 18px;
+}
 #naver_weather_icon{
     position: absolute;
-    left: 60px;
-    display: block;
+    margin-left: -42px;
     width: 50px;
 }
 .naver_weather_text{
     margin-left: 20px;
 }
 .naver_weather_text div{
-   font-size: 13px;
+   font-size: 14px;
+   padding-top: 3px;
 }
 .ass{
     color: rgb(124, 192, 231);
@@ -38,4 +41,15 @@
     width: 370px;
     text-align: center;
     color: rgb(131, 131, 131);
+}
+#search_me_text{
+    position: absolute;
+    margin-left: 210px;
+    width: 100px;
+    height: 20px;
+    color: rgb(131, 131, 131);
+    background: url(../img/naver_search_icon.png) no-repeat;
+    background-size: 18px;
+    background-position: 80px;
+    font-size: 14px;
 }
